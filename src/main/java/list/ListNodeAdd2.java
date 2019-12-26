@@ -1,6 +1,6 @@
 package list;
 
-public class ListNodeAdd {
+public class ListNodeAdd2 {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode listNode = new ListNode(0);
@@ -42,7 +42,7 @@ public class ListNodeAdd {
         listNode3.next = listNode4;
         listNode4.next = listNode5;
         listNode5.next = listNode6;
-        ListNode node = new ListNodeAdd().addTwoNumbers(listNode, listNode3);
+        ListNode node = new ListNodeAdd2().addTwoNumbers(listNode, listNode3);
         while (node != null) {
             System.out.print(node.val + "->");
             node = node.next;
@@ -51,11 +51,4 @@ public class ListNodeAdd {
     }
 }
 
-class ListNode {
-    int val;
-    ListNode next;
 
-    ListNode(int x) {
-        val = x;
-    }
-}

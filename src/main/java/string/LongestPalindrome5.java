@@ -5,7 +5,7 @@ package string;
  * @created 2019/12/25 20:59
  * @contact 14274493
  */
-public class LongestPalindrome {
+public class LongestPalindrome5 {
 
     public static String longestPalindrome(String s) {
         if (s == null || s.length() == 0) {

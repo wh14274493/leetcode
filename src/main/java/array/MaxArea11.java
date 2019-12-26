@@ -5,7 +5,7 @@ package array;
  * @created 2019/12/25 21:49
  * @contact 14274493
  */
-public class MaxArea {
+public class MaxArea11 {
 
     /**
      * 双指针法

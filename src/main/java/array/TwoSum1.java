@@ -1,6 +1,6 @@
 package array;
 
-public class TwoSum {
+public class TwoSum1 {
 
     public static int[] twoSum(int[] nums, int target) {
         for (int index = 0; index < nums.length; index++) {

@@ -8,7 +8,7 @@ import java.util.Map;
  * @created 2019/12/23 23:06
  * @contact 14274493
  */
-public class LengthOfLongestSubstring {
+public class LengthOfLongestSubstring3 {
 
     public int lengthOfLongestSubstring(String s) {
         Map<Character, Integer> map = new HashMap<Character, Integer>();
@@ -26,6 +26,6 @@ public class LengthOfLongestSubstring {
 
     public static void main(String[] args) {
         String s = "";
-        System.out.println(new LengthOfLongestSubstring().lengthOfLongestSubstring(s));
+        System.out.println(new LengthOfLongestSubstring3().lengthOfLongestSubstring(s));
     }
 }

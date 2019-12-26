@@ -9,7 +9,7 @@ import java.util.*;
  * @created 2019/12/26 21:25
  * @contact 14274493
  */
-public class ThreeSum {
+public class ThreeSum15 {
 
     public static List<List<Integer>> threeSum(int[] nums) {
         int length = nums.length;
