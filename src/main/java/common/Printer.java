@@ -1,5 +1,7 @@
 package common;
 
+import list.ListNode;
+
 import java.util.List;
 import java.util.Optional;
 
@@ -27,5 +29,11 @@ public class Printer {
         }
     }
 
-
+    public static void print(ListNode node) {
+        while (node != null) {
+            System.out.print(node.val + "->");
+            node = node.next;
+        }
+        System.out.println();
+    }
 }
